@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>ABC PQR CV</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        line-height: normal;
+      }
+      main {
+        background-color: white;
+        width: 700px;
+        padding: 2em;
+        height: auto;
+        position: relative;
+        left: 400px;
+      }
+      header::first-line {
+        font-size: 24px;
+      }
+
+      h2 {
+        color: rgb(59, 121, 165);
+      }
+      .container {
+        background-color: #eee;
+        padding: 2em 2em;
+      }
+      .experience {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+      .exp-1 {
+        grid-column: 1/3;
+        grid-row: 1;
+      }
+      .exp-2 {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      .exp-3 {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      .exp-4 {
+        grid-column: 1;
+        grid-row: 3;
+      }
+
+      .exp-5 {
+        grid-column: 2;
+        grid-row: 3;
+      }
+
+      .education {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+      .educ-1 {
+        grid-column: 1/3;
+        grid-row: 1;
+      }
+      .educ-2 {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      .educ-3 {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      .educ-4 {
+        grid-column: 1;
+        grid-row: 3;
+      }
+
+      .educ-5 {
+        grid-column: 2;
+        grid-row: 3;
+      }
+      #ratings {
+        font-size: 0;
+      }
+      #ratings * {
+        float: right;
+      }
+      #ratings input {
+        display: none;
+      }
+      #ratings label {
+        width: 10px;
+        height: 20px;
+        background-color: rgb(95, 146, 153);
+        display: inline-block;
+      }
+
+      #ratings label:nth-of-type(even) {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-left: 5px;
+      }
+      #ratings label:nth-of-type(odd) {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-right: 5px;
+      }
+      #ratings input:checked ~ label {
+        background-color: rgb(7, 80, 133);
+      }
+      #ratingscss {
+        font-size: 0;
+      }
+      #ratingscss * {
+        float: right;
+      }
+      #ratingscss input {
+        display: none;
+      }
+      #ratingscss label {
+        width: 10px;
+        height: 20px;
+        background-color: rgb(95, 146, 153);
+        display: inline-block;
+      }
+
+      #ratingscss label:nth-of-type(even) {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-left: 5px;
+      }
+      #ratingscss label:nth-of-type(odd) {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-right: 5px;
+      }
+      #ratingscss input:checked ~ label {
+        background-color: rgb(7, 80, 133);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <header class="item-1">
+          <strong> ABC</strong>
+          PQR
+
+          <br />
+          <span style="opacity: 0.4"> Email:</span>abc.pqr@mai.com |
+          <span style="opacity: 0.4"> Phone:</span> 222-222-2222
+        </header>
+
+        <p class="item-2">
+          <strong style="text-decoration: underline">
+            Front-End Developer
+          </strong>
+          I am a front-end-developer with more than three years of experience
+          writing html, css, and js. Lorem ipsum dolor sit amet cosectetur
+          adipticising elit. Quo, quae..
+        </p>
+        <div class="experience">
+          <h2 class="exp-1">Experience</h2>
+          <div class="exp-2">
+            <p>
+              <strong> lorem</strong> <br />
+              SanFr,CA <br />
+              Jan 2011- Feb 2015
+            </p>
+          </div>
+          <div class="exp-3">
+            <p>
+              <br />
+              <strong>Fr.developer</strong> <br />
+              did This and that
+            </p>
+          </div>
+          <div class="exp-4">
+            <p>
+              <strong> lorem</strong> <br />
+              SanFr,CA <br />
+              Jan 2011- Feb 2015
+            </p>
+          </div>
+          <div class="exp-5">
+            <p>
+              <br />
+              <strong>Fr.developer</strong> <br />
+              did This and that
+            </p>
+          </div>
+        </div>
+        <div class="education">
+          <h2 class="educ-1">Education</h2>
+          <div class="educ-2">
+            <p>
+              <strong>Sample Institue of technology</strong> <br />
+              SanFr,CA <br />
+              Jan 2011- Feb 2015
+            </p>
+          </div>
+          <div class="educ-3">
+            <p>
+              <br />
+              <strong>Fr.developer</strong> <br />
+              did This and that
+            </p>
+          </div>
+          <div class="educ-4">
+            <p>
+              <strong> lorem</strong> <br />
+              San Monica, CA <br />
+              Jan 2011- Feb 2015
+            </p>
+          </div>
+          <div class="educ-5">
+            <p>
+              <br />
+              <strong>Fr.developer</strong> <br />
+              did This and that
+            </p>
+          </div>
+        </div>
+        <div class="projects">
+          <h2>Projects</h2>
+          <h3>DSP</h3>
+          <p>
+            I am a front-end-developer with more than three years of experience
+            writing html, css, and js. Lorem ipsum dolor sit amet cosectetur
+            adipticising elit. Dolor dolorem autem sit numquam veritatis link
+          </p>
+
+          <h3 class="">DSP</h3>
+          <p class="">
+            I am a front-end-developer with more than three years of experience
+            writing html, css, and js. Lorem ipsum dolor sit amet cosectetur
+            adipticising elit. Dolor dolorem autem sit numquam veritatis link
+          </p>
+        </div>
+        <div class="skills">
+          <h2 class="">Skills</h2>
+          <div>
+            <p>JavaScript</p>
+            <div id="ratings">
+              <input
+                type="radio"
+                id="rating-10"
+                name="rating"
+                value="10"
+                checked="checked"
+              />
+              <label for="rating-10"></label>
+
+              <input
+                type="radio"
+                id="rating-9"
+                name="rating"
+                value="9"
+                checked="checked"
+              />
+              <label for="rating-9"></label>
+
+              <input
+                type="radio"
+                id="rating-8"
+                name="rating"
+                value="8"
+                checked="checked"
+              />
+              <label for="rating-8"></label>
+              <input
+                type="radio"
+                id="rating-7"
+                name="rating"
+                value="7"
+                checked="checked"
+              />
+              <label for="rating-7"></label>
+
+              <input
+                type="radio"
+                id="rating-6"
+                name="rating"
+                value="6"
+                checked="checked"
+              />
+              <label for="rating-6"></label>
+
+              <input
+                type="radio"
+                id="rating-5"
+                name="rating"
+                value="5"
+                checked="checked"
+              />
+              <label for="rating-5"></label>
+
+              <input
+                type="radio"
+                id="rating-4"
+                name="rating"
+                value="4"
+                checked="checked"
+              />
+              <label for="rating-4"></label>
+
+              <input
+                type="radio"
+                id="rating-3"
+                name="rating"
+                value="3"
+                checked="checked"
+              />
+              <label for="rating-3"></label>
+
+              <input
+                type="radio"
+                id="rating-2"
+                name="rating"
+                value="2"
+                checked="checked"
+              />
+              <label for="rating-2"></label>
+
+              <input
+                type="radio"
+                id="rating-1"
+                name="rating"
+                value="1"
+                checked="checked"
+              />
+              <label for="rating-1"></label>
+            </div>
+          </div>
+
+          <div>
+            <p>css</p>
+            <div id="ratingscss">
+              <input
+                type="radio"
+                id="ratingcss-20"
+                name="ratingcss"
+                value="20"
+                checked="checked"
+              />
+              <label for="ratingcss-20"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-19"
+                name="ratingcss"
+                value="9"
+                checked="checked"
+              />
+              <label for="ratingcss-19"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-18"
+                name="ratingcss"
+                value="18"
+                checked="checked"
+              />
+              <label for="ratingcss-18"></label>
+              <input
+                type="radio"
+                id="ratingcss-17"
+                name="ratingcss"
+                value="17"
+                checked="checked"
+              />
+              <label for="ratingcss-17"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-16"
+                name="ratingcss"
+                value="16"
+                checked="checked"
+              />
+              <label for="ratingcss-16"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-15"
+                name="ratingcss"
+                value="15"
+                checked="checked"
+              />
+              <label for="ratingcss-15"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-14"
+                name="ratingcss"
+                value="14"
+                checked="checked"
+              />
+              <label for="ratingcss-14"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-13"
+                name="ratingcss"
+                value="13"
+                checked="checked"
+              />
+              <label for="ratingcss-13"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-12"
+                name="ratingcss"
+                value="12"
+                checked="checked"
+              />
+              <label for="ratingcss-12"></label>
+
+              <input
+                type="radio"
+                id="ratingcss-11"
+                name="ratingcss"
+                value="11"
+                checked="checked"
+              />
+              <label for="ratingcss-11"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="interests">
+          <h2 class="item-19">Interests</h2>
+          <p class="item-20">Reading, programming</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
